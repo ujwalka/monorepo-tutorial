@@ -1,0 +1,31 @@
+{
+  "name": "@fooddist/common-utils",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "snigo <snigo.ogins@gmail.com>",
+  "homepage": "https://github.com/snigo/monorepo-tutorial#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snigo/monorepo-tutorial.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/snigo/monorepo-tutorial/issues"
+  }
+}

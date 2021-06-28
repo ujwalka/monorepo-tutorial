@@ -1,0 +1,21 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@types/node": "^15.12.5",
+    "@types/react": "^17.0.11",
+    "lerna": "^3.10.8",
+    "postcss": "^8.3.5",
+    "rollup": "^2.52.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "sass": "^1.35.1",
+    "typed-scss-modules": "^4.1.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
